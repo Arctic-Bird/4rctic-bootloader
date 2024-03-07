@@ -1,3 +1,4 @@
+; Credit: http://3zanders.co.uk/2017/10/13/writing-a-bootloader/
 bits 16 ; 16 bit code
 org 0x7c00 ; This transfers control over to the bootloader!
 boot:
